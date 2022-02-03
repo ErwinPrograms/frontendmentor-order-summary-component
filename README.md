@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: WIP
-- Live Site URL: WIP
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/responsive-component-using-css-flexbox-and-grid-NR3KcQ9dk)
+- Live Site URL: [Github Page](https://erwinprograms.github.io/frontendmentor-order-summary-component/)
 
 ## My process
 
@@ -31,6 +31,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Grid
 - Mobile-first workflow
 
 ## Author
