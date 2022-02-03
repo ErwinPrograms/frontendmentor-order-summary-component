@@ -65,7 +65,8 @@ a {
 }
 
 .order-summary-illustration {
-    height: 30%;
+    /* max-height: 30%; */
+    width: 115%;
 }
 
 .order-title {
@@ -78,9 +79,14 @@ a {
 .order-description {
     flex-grow: 3;
     text-align: center;
+    line-height: 1.75em;
 
     margin: 0;
     padding: 1em 0 1.25em;
+
+    min-width: 60%;
+    width: 20em;
+    max-width: 100%;
 }
 
 .plan-info {
