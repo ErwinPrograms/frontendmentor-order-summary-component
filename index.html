@@ -25,8 +25,11 @@
 </head>
 
 <body>
-  <section class="order-summary-component">
-    <img src="./assets/images/illustration-hero.svg" class="order-summary-illustration">
+
+  <!-- Omitting h1 because in real world, this component would not be at the top of a page -->
+
+  <section class="order-summary-component" role="main">
+    <img src="./assets/images/illustration-hero.svg" alt="order illustration" class="order-summary-illustration">
     <h2 class="order-title">Order Summary</h2>
 
     <p class="order-description">You can now listen to millions of songs, audiobooks, and podcasts on any
@@ -34,7 +37,7 @@
     </p>
 
     <div class="plan-info">
-      <img src="./assets/images/icon-music.svg" class="plan-icon">
+      <img src="./assets/images/icon-music.svg" alt="music icon" class="plan-icon">
 
       <h3 class="plan-title">Annual Plan</h3>
       <div class="plan-pricing">$59.99/year</div>
@@ -46,7 +49,7 @@
     <button class="cancel-btn">Cancel Order</button>
   </section>
 
-  <div class="attribution">
+  <div class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">ErwinPrograms</a>.
   </div>
