@@ -54,7 +54,16 @@ button {
     align-items: center;
 }
 
+.order-summary-illustration {
+    height: 30%;
+}
+
+.order-title {
+    flex-grow: 1;
+}
+
 .order-description {
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -62,6 +71,7 @@ button {
     color: var(--neutral-desaturated);
     background-color: var(--neutral-pale);
 
+    flex-grow: 1;
     width: 100%;
     border-radius: 5%;
 
