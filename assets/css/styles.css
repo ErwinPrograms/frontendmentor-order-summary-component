@@ -144,6 +144,19 @@ a {
     align-self: center;
 }
 
+.plan-info a:hover,
+.plan-info a:focus {
+    text-decoration: none;
+}
+
+.plan-info a:hover {
+    opacity: .75;
+}
+
+.plan-info a:focus {
+    opacity: .5;
+}
+
 .payment-btn,
 .cancel-btn {
     display: block;
@@ -157,6 +170,11 @@ a {
     font-size: 1em;
 }
 
+.payment-btn:hover,
+.cancel-btn:hover {
+    cursor: pointer;
+}
+
 .payment-btn {
     margin-top: 1.25em;
 
@@ -168,8 +186,26 @@ a {
     box-shadow: 0 5px 10px var(--primary-one);
 }
 
+.payment-btn:hover {
+    opacity: .75;
+}
+
+.payment-btn:focus {
+    border: 2px solid var(--primary-two);
+    background-color: var(--neutral-pale);
+    color: var(--neutral-dark);
+}
+
 .cancel-btn {
     background-color: transparent;
     border: none;
     color: var(--neutral-desaturated);
+}
+
+.cancel-btn:hover {
+    color: var(--neutral-dark);
+}
+
+.cancel-btn:focus {
+    opacity: .5;
 }
