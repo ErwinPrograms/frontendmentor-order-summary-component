@@ -43,8 +43,10 @@ a {
     overflow: hidden;
 
     height: 80vh;
+    min-width: 278px;
+    max-width: 410px;
     margin: 10vh 2rem;
-    padding: 0 5%;
+    padding: 0 5% 1em;
     
     display: flex;
     flex-direction: column;
@@ -73,8 +75,9 @@ a {
 .plan-info {
     color: var(--neutral-desaturated);
     background-color: var(--neutral-pale);
+    white-space: nowrap;
 
-    flex-grow: 2;
+    flex-grow: 1.5;
     width: 100%;
     border-radius: 5%;
 
@@ -119,7 +122,10 @@ a {
 
 .payment-btn,
 .cancel-btn {
+    display: block;
+    
     flex-grow: 1.5;
+    min-height: 10%;
     width: 100%;
     margin: .5em 0;
 
@@ -128,10 +134,12 @@ a {
 }
 
 .payment-btn {
+    margin-top: 1em;
+
     background-color: var(--primary-two);
     color: var(--neutral-pale);
     border: none;
-    border-radius: 10%;
+    border-radius: 10px;
 
     box-shadow: 0 5px 10px var(--primary-one);
 }
