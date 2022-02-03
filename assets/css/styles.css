@@ -64,7 +64,7 @@ a {
     flex-grow: 1;
 
     margin: 0;
-    padding: 1em 0;
+    padding-top: 1.25em;
 }
 
 .order-description {
@@ -72,7 +72,7 @@ a {
     text-align: center;
 
     margin: 0;
-    padding: .5em 0 1em;
+    padding: 1em 0 1.25em;
 }
 
 .plan-info {
@@ -130,14 +130,14 @@ a {
     flex-grow: 1.5;
     min-height: 10%;
     width: 100%;
-    margin: .5em 0;
+    margin: .25em 0;
 
     font-weight: 700;
     font-size: 1em;
 }
 
 .payment-btn {
-    margin-top: 1em;
+    margin-top: 1.25em;
 
     background-color: var(--primary-two);
     color: var(--neutral-pale);
