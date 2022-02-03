@@ -54,7 +54,9 @@ a {
     overflow-y: scroll;
     overflow-x: hidden;
 
-    height: 80vh;
+    min-height: 0;
+    height: 40em;
+    max-height: 80vh;
     min-width: 278px;
     max-width: 410px;
     margin: 10vh 2rem;
