@@ -36,10 +36,6 @@ a {
     color: var(--primary-two);
 }
 
-button {
-    font-weight: 700;
-}
-
 .order-summary-component {
     background-color: white;
     border-radius: 5%;
@@ -97,9 +93,22 @@ button {
     grid-area: d;
 }
 
+.payment-btn,
+.cancel-btn {
+    width: 100%;
+    margin: 1em 0;
+
+    font-weight: 700;
+    font-size: 1em;
+}
+
 .payment-btn {
     background-color: var(--primary-two);
     color: var(--neutral-pale);
+    border: none;
+    border-radius: 10%;
+
+    box-shadow: 0 5px 10px var(--primary-one);
 }
 
 .cancel-btn {
