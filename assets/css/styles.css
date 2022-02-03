@@ -41,13 +41,50 @@ button {
 }
 
 .order-summary-component {
-    background-color: var(--neutral-pale);
+    background-color: white;
     border-radius: 5%;
     overflow: hidden;
+
+    height: 80vh;
+    margin: 10vh 2rem;
+    padding: 0 5%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-description {
+    text-align: center;
 }
 
 .plan-info {
     color: var(--neutral-desaturated);
+    background-color: var(--neutral-pale);
+
+    width: 100%;
+    border-radius: 5%;
+
+    display: grid;
+    grid-template-areas: 
+        "a b d"
+        "a c d";
+}
+
+.plan-icon {
+    grid-area: a;
+}
+
+.plan-title {
+    grid-area: b;
+}
+
+.plan-pricing {
+    grid-area: c;
+}
+
+.plan-info a {
+    grid-area: d;
 }
 
 .payment-btn {
